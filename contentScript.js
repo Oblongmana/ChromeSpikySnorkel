@@ -94,7 +94,7 @@ try {
                 .css({
                     'font-weight': 'bold',
                     'color': 'white',
-                    'text-shadow': '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black',
+                    'text-shadow': '-1px 0 DimGray, 0 1px DimGray, 1px 0 DimGray, 0 -1px DimGray',
                     'margin-left': '4px'
                 })
                 .text(latestVersion.label + ' (' + latestVersion.version + ')');
