@@ -51,7 +51,7 @@ try {
         var optionsArr = [];
         var emptyOpt = null;
         $('option', select).each(function() {
-            if($(this).text().indexOf('--') !== -1) { 
+            if($(this).text().indexOf('--') !== -1) {
                 emptyOpt = $(this);
             } else {
                 optionsArr.push($(this));
@@ -94,6 +94,7 @@ try {
                 .css({
                     'font-weight': 'bold',
                     'color': 'white',
+                    'text-shadow': '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black',
                     'margin-left': '4px'
                 })
                 .text(latestVersion.label + ' (' + latestVersion.version + ')');
